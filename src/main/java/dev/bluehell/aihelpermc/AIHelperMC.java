@@ -17,7 +17,7 @@ public final class AIHelperMC extends JavaPlugin {
         AiApiService aiApiService = new AiApiService(this,secretoNode);
         AskCommand comandoIA = new AskCommand(aiApiService, cooldownManager, mensajeCooldown, segundosCooldown);
         this.getCommand("ia").setExecutor(comandoIA);
-        getLogger().info("¡AIHelperMC encendido correctamente (Modo SOLID)!");
+        getLogger().info("¡AIHelperMC encendido correctamente!");
     }
 
     @Override
