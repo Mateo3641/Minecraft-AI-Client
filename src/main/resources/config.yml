@@ -1,0 +1,11 @@
+# Configuración de Inteligencia Artificial
+
+#cooldown en segundos
+cooldown-seconds: 15
+# Esta es la clave para hablar con la API de la IA
+api-secret: "tukicraft_secreto_123"
+
+# Mensajes
+mensajes:
+  sin-permiso: "&cNo tienes permiso para usar esto."
+  cooldown: "&cDebes esperar %tiempo% segundos para volver a preguntar."
